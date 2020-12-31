@@ -55,7 +55,7 @@ else
         hubConnection.On("ReceiveMessage", () =>
         {
             CallAllLanguages();
-            StateHasChanged();
+            //StateHasChanged();
         });
 
         await hubConnection.StartAsync();
